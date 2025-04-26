@@ -1,0 +1,9 @@
+DISTINCTCOUNT
+
+Descrição: Conta quantos valores únicos existem.
+
+Sintaxe: DISTINCTCOUNT(Coluna)
+
+Exemplo:
+
+ClientesUnicos = DISTINCTCOUNT(Vendas[ClienteID])
