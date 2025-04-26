@@ -1,0 +1,8 @@
+AVERAGE
+Descrição: Calcula a média aritmética.
+
+Sintaxe: AVERAGE(Coluna)
+
+Exemplo:
+
+MediaVendas = AVERAGE(Vendas[Valor])
