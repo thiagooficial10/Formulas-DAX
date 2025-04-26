@@ -1,0 +1,8 @@
+COUNT
+Descrição: Conta o número de valores não nulos.
+
+Sintaxe: COUNT(Coluna)
+
+Exemplo:
+
+QtdClientes = COUNT(Vendas[ClienteID])
