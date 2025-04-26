@@ -1,0 +1,9 @@
+SUM
+Descrição: Soma todos os valores de uma coluna.
+  
+Sintaxe: SUM(Coluna)
+
+  
+Exemplo:
+
+TotalVendas = SUM(Vendas[Valor])
