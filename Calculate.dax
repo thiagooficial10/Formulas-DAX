@@ -1,0 +1,10 @@
+CALCULATE
+Descrição: Muda o contexto da avaliação de uma medida.
+
+Sintaxe: CALCULATE(expressão, filtros...)
+
+Exemplo:
+
+VendasSP = CALCULATE(SUM(Vendas[Valor]), Vendas[Estado] = "SP")
+  
+Cenário: Soma apenas os valores de vendas feitas no estado de SP.
