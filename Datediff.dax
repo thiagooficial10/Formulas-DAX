@@ -1,0 +1,9 @@
+DATEDIFF
+Descrição: Calcula a diferença entre duas datas em dias, meses, anos, etc.
+
+Sintaxe: DATEDIFF(DataInicial, DataFinal, Unidade)
+
+Exemplo:
+
+DiasEntre = DATEDIFF(Clientes[DataCadastro], TODAY(), DAY)
+Cenário: Se DataCadastro foi em 01/01/2024 e hoje é 01/05/2025, o resultado será 486 dias.
