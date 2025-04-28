@@ -1,0 +1,15 @@
+YEAR, MONTH, DAY
+Descrição: Extraem respectivamente o ano, mês e dia de uma data.
+
+Exemplos:
+
+AnoVenda = YEAR(Vendas[Data])
+MesVenda = MONTH(Vendas[Data])
+DiaVenda = DAY(Vendas[Data])
+Cenário: Para Data = 2023-07-15:
+
+AnoVenda será 2023
+
+MesVenda será 7
+
+DiaVenda será 15
