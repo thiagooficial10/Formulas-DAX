@@ -1,0 +1,8 @@
+TODAY
+Descrição: Retorna a data atual do sistema.
+
+Exemplo:
+
+
+DataAtual = TODAY()
+Resultado: Se hoje for 26/04/2025, ele retorna 26/04/2025.
