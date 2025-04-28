@@ -1,0 +1,10 @@
+SUMX
+Descrição: Soma o resultado de uma expressão linha a linha.
+
+Sintaxe: SUMX(Tabela, Expressão)
+
+Exemplo:
+
+TotalComDesconto = SUMX(Vendas, Vendas[Quantidade] * Vendas[PrecoUnitario])
+  
+Cenário: Se uma venda tem 2 unidades x R$100, soma R$200 para essa linha.
