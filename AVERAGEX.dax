@@ -1,0 +1,8 @@
+AVERAGEX
+Descrição: Calcula a média de uma expressão linha a linha.
+
+Exemplo:
+
+MediaComissao = AVERAGEX(Vendedores, Vendedores[TotalVendas] * 0.1)
+  
+Cenário: Se TotalVendas são {1000, 2000, 3000}, a média da comissão será R$200.
