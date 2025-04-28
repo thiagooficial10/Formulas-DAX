@@ -1,0 +1,8 @@
+RELATED
+Descrição: Busca um valor relacionado de outra tabela com relacionamento.
+
+Exemplo:
+
+NomeCliente = RELATED(Clientes[Nome])
+
+Cenário: Em vendas, puxa o Nome correspondente do cliente.
